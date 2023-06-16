@@ -32,7 +32,7 @@ job_description = st.text_area("Paste the job description below:")
 
 # Generate the cover letter when the user clicks the button
 if st.button("Generate Cover Letter"):
-    if job_description == None:
+    if job_description == None or upload_resume == None:
         st.error("Enter a job description and try again!")
     else:
         with st.spinner():
