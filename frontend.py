@@ -32,10 +32,11 @@ job_description = st.text_area("Paste the job description below:")
 
 # Generate the cover letter when the user clicks the button
 if st.button("Generate Cover Letter"):
-    if pdf_text and job_description != None:
+    if job_description == None:
+        st.error("Enter a job description and try again!")
+    else:
         with st.spinner():
             cover_letter = cl_generator(pdf_text, job_description, openai_key, temp)
         with st.expander("Cover Letter", expanded=True):
             st.code(cover_letter)
-    else:
-        st.error("Enter a job description and try again!")
+        
