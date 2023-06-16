@@ -11,6 +11,8 @@ st.title("Cover Letter Generator 📬")
 # Get the OpenAI API key from the user
 openai_key = st.text_input("Enter your OpenAi Key:")
 
+st.write("https://openaimaster.com/how-to-get-openai-api-key-for-free/")
+
 # Set the LLM temperature using a slider
 temp = st.slider('Set LLM Temperature: Less Creative <<---------------->> More Creative', 0.0, 1.0, 0.5, 0.1)
 
