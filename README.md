@@ -19,7 +19,7 @@ To use the Cover Letter Generator, follow these steps:
 
    ```
    git clone https://github.com/parvashah-create/cover-letter-generator.git
-   ``
+   ```
    ## or
 
    Access the hosted [App](https://cover-letter-generatorz.streamlit.app/)
