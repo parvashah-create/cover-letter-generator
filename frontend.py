@@ -38,3 +38,5 @@ if st.button("Generate Cover Letter"):
         with st.expander("Cover Letter", expanded=True):
             st.code(cover_letter)
         
+
+st.markdown("""made by: [Parva Shah](https://github.com/parvashah-create)""")
