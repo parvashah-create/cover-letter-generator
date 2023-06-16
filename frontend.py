@@ -24,8 +24,6 @@ if upload_resume is not None:
     bytes_data = upload_resume.getvalue()
     pdf_text = pdf_loader(bytes_data)
     st.success("The pdf was uploaded successfully!")
-else:
-    st.warning("Upload pdf to continue..")
 
 # Provide a text area for the user to paste the job description
 job_description = st.text_area("Paste the job description below:")
@@ -33,7 +31,7 @@ job_description = st.text_area("Paste the job description below:")
 # Generate the cover letter when the user clicks the button
 if st.button("Generate Cover Letter"):
     if job_description == None or upload_resume == None:
-        st.error("Enter a job description and try again!")
+        st.error("Upload Resume and enter a job description to continue")
     else:
         with st.spinner():
             cover_letter = cl_generator(pdf_text, job_description, openai_key, temp)
