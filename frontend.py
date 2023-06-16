@@ -23,7 +23,7 @@ if upload_resume is not None:
     pdf_text = pdf_loader(bytes_data)
     st.success("The pdf was uploaded successfully!")
 else:
-    st.error("Upload pdf to continue..")
+    st.warning("Upload pdf to continue..")
 
 # Provide a text area for the user to paste the job description
 job_description = st.text_area("Paste the job description below:")
