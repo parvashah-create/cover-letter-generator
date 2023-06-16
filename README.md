@@ -15,12 +15,14 @@ The Cover Letter Generator is an open-source project that aims to automate the p
 To use the Cover Letter Generator, follow these steps:
 
 
-1. **Installation**: Clone the project repository from GitHub to your local machine:
+1. **Installation**: 
 
    Access the hosted [App](https://cover-letter-generatorz.streamlit.app/)
 
    ## or
-
+   
+   Clone the project repository from GitHub to your local machine:
+   
    ```
    git clone https://github.com/parvashah-create/cover-letter-generator.git
    ```
