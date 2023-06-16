@@ -25,11 +25,11 @@ To use the Cover Letter Generator, follow these steps:
    git clone https://github.com/parvashah-create/cover-letter-generator.git
    ```
  
-   - Install the dependencies: Check if there is a `requirements.txt` file in the repository. This file typically contains a list of required dependencies for the project. To install these dependencies, use the package manager or command provided by your programming language. For example, if you are using Python and pip as your package manager, run the following command in the terminal or command prompt:
+   - **Install the dependencies: Check if there is a `requirements.txt` file in the repository. This file typically contains a list of required dependencies for the project. To install these dependencies, use the package manager or command provided by your programming language. For example, if you are using Python and pip as your package manager, run the following command in the terminal or command prompt:
    ```
    pip install -r requirements.txt
    ```
-   - Run the frontend.py file: Assuming you have a file named `frontend.py` that runs the frontend of your project, you can execute it using the appropriate command. If you are using Streamlit to run the frontend, you can use the following command in the terminal or command prompt:
+   - **Run the frontend.py file: Assuming you have a file named `frontend.py` that runs the frontend of your project, you can execute it using the appropriate command. If you are using Streamlit to run the frontend, you can use the following command in the terminal or command prompt:
    ```
    streamlit run frontend.py
    ```
