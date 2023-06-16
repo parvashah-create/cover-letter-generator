@@ -17,13 +17,14 @@ To use the Cover Letter Generator, follow these steps:
 
 1. **Installation**: Clone the project repository from GitHub to your local machine:
 
+   Access the hosted [App](https://cover-letter-generatorz.streamlit.app/)
+
+   ## or
+
    ```
    git clone https://github.com/parvashah-create/cover-letter-generator.git
    ```
-   ## or
-
-   Access the hosted [App](https://cover-letter-generatorz.streamlit.app/)
-
+ 
    - Install the dependencies: Check if there is a `requirements.txt` file in the repository. This file typically contains a list of required dependencies for the project. To install these dependencies, use the package manager or command provided by your programming language. For example, if you are using Python and pip as your package manager, run the following command in the terminal or command prompt:
    ```
    pip install -r requirements.txt
